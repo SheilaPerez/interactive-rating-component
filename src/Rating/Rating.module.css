@@ -1,0 +1,75 @@
+.ratingContent {
+    width: 327px;
+    height: 360px;
+    border-radius: 15px;
+    background-color: #232A34;  
+  
+}
+
+.question {
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30.38px;
+    margin-left: 24px;
+}
+.description {
+    color: #969FAD;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0 24px;
+    margin-bottom: 24px;
+
+}
+.iconStar {
+    margin-left: 24px;
+    padding-top: 24px;
+    width: 40px;
+    height: 40px;
+    background-color: #262E38;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.thanksContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 28px;
+}
+.whatSelected {
+    color: #FC7614;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    font-size: 14px;
+    background-color: #262E38;
+    width: 168px;
+    height: 32px;
+    border-radius: 22.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30.91px;
+    margin-bottom: 24px;
+}
+.thanks {
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0;
+}
+.description {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    font-size: 14px;
+    color: #969FAD;
+    margin-top: 17px;
+    text-align: center;
+}

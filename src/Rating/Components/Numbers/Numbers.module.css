@@ -1,0 +1,34 @@
+.numsContent {
+    display: flex;
+    margin-left: 24px;
+}
+
+.num {
+    width: 42px;
+    height: 42px;
+    background-color: #262E38;
+    color: #7C8798;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 17px;
+    cursor: pointer;
+}
+.num:hover {
+    background-color: #FC7614;
+    color: white;
+}
+
+.numSelected {
+    background-color: #7C8798;
+    color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 17px;
+    cursor: pointer;
+    width: 42px;
+    height: 42px;
+}
