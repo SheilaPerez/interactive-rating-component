@@ -3,9 +3,7 @@
     height: 360px;
     border-radius: 15px;
     background-color: #232A34;  
-  
 }
-
 .question {
     color: white;
     font-family: 'Overpass', sans-serif;
@@ -22,11 +20,10 @@
     line-height: 22px;
     margin: 0 24px;
     margin-bottom: 24px;
-
 }
 .iconStar {
     margin-left: 24px;
-    padding-top: 24px;
+    margin-top: 24px;
     width: 40px;
     height: 40px;
     background-color: #262E38;
@@ -64,7 +61,7 @@
     font-size: 24px;
     margin: 0;
 }
-.description {
+.thanksDescription {
     font-family: 'Overpass', sans-serif;
     font-weight: 400;
     line-height: 22px;
@@ -72,4 +69,37 @@
     color: #969FAD;
     margin-top: 17px;
     text-align: center;
+    width: 279px;
+}
+
+@media only screen and (min-width: 1440px) {
+    .ratingContent {
+        width: 412px;
+        height: 416px;
+        border-radius: 15px;
+        background-color: #232A34;  
+    }
+    .iconStar {
+        margin-left: 32px;
+        margin-top: 32px;
+        width: 48px;
+        height: 48px;
+    }
+    .question {
+        margin: 30px 0 15px 32px;
+    }
+    .description {
+        margin-left: 32px;
+        font-size: 15px;
+    }
+    .thanksContainer {
+        margin-top: 45px;
+    }
+    .whatSelected {
+        margin: 32px 0;
+    }
+    .thanksDescription {
+        Width: 340px;
+        font-size: 15px;
+    }
 }

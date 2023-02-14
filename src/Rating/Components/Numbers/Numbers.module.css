@@ -1,6 +1,6 @@
 .numsContent {
     display: flex;
-    margin-left: 24px;
+    justify-content: center;
 }
 
 .num {
@@ -31,4 +31,17 @@
     cursor: pointer;
     width: 42px;
     height: 42px;
+}
+
+@media only screen and (min-width: 1440px) {
+    .num {
+        width: 51px;
+        height: 51px;
+    }
+
+    .numSelected {
+        width: 51px;
+        height: 51px;
+    }
+
 }
